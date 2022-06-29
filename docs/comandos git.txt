@@ -1,0 +1,24 @@
+Descargar e Instalar GIT
+Configurar GIT
+    > git config --global user.name "Su nombre"
+    > git config --global user.mail "su correo"
+
+Crear una cuenta de usuario en GitHub, GitLab, Bitbucket
+
+    ---------------------------------------
+    Comandps GIT
+
+    - para iniciar un nuevo respositprio
+        > git init
+    - si ya existe el repositorio
+        > git clone <direccion>
+    
+    - Enlazar el repositorio local de Laravel con el repositorio remoto (bk-end-laravel-angular)
+        > git remote add origin <direccion>
+        > git remote add origin https://github.com/mteran/NOMBRE_PROYECTO
+        > git remote add origin https://github.com/marceloteran/bk-end-laravel-angular.git
+        -------------------------
+
+    git add .
+    git commit -m "Api Rest Login Laravel"
+    git push origin master
